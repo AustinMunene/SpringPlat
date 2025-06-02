@@ -50,7 +50,7 @@ const WhatWeDoSection = () => {
             whileHover={{ scale: 1.05 }}
           >
             <motion.img 
-              src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+              src="https://i.imgur.com/nfo9bXT.png" 
               alt="Analytics and data visualization" 
               className="rounded-lg shadow-custom w-full h-auto"
               animate={floatingAnimation}

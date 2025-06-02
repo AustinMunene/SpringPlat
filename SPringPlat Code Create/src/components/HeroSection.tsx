@@ -59,7 +59,7 @@ const HeroSection = () => {
                 className="absolute -bottom-4 left-0"
               >
                 <motion.path
-                  d="M0 10C40 10 40 17 80 17C120 17 120 3 160 3C200 3 200 10 240 10"
+                  d="M20 15 Q120 5 220 15"
                   stroke="#FFA64D"
                   strokeWidth="4"
                   strokeLinecap="round"

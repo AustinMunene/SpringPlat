@@ -68,7 +68,7 @@ const OurApproachSection = () => {
             animate={isInView ? "visible" : "hidden"}
           >
             <img 
-              src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+              src="https://i.imgur.com/ntq0m8a.png" 
               alt="Development process" 
               className="rounded-lg shadow-custom w-full h-auto"
             />
