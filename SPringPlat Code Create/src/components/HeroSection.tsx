@@ -81,64 +81,24 @@ const HeroSection = () => {
           </motion.div>
           
           <motion.div 
-            className="relative"
+            className="relative flex justify-center items-center h-80 md:h-96"
             initial="hidden"
             animate="visible"
             variants={shapeVariants}
           >
-            <div className="relative w-full h-80 md:h-96">
-              <motion.div 
-                className="absolute top-0 left-0 w-40 h-40 bg-primary-light rounded-lg"
-                animate={{ 
-                  rotate: [0, 5, 0, -5, 0],
-                  y: [0, -10, 0, 10, 0],
-                }}
-                transition={{ 
-                  repeat: Infinity,
-                  duration: 15,
-                  ease: "easeInOut"
-                }}
-              ></motion.div>
-              
-              <motion.div 
-                className="absolute top-1/4 right-1/4 w-56 h-56 bg-primary rounded-lg"
-                animate={{ 
-                  rotate: [0, -10, 0, 10, 0],
-                  x: [0, 10, 0, -10, 0],
-                }}
-                transition={{ 
-                  repeat: Infinity,
-                  duration: 18,
-                  ease: "easeInOut"
-                }}
-              ></motion.div>
-              
-              <motion.div 
-                className="absolute bottom-1/4 right-0 w-48 h-48 bg-secondary rounded-lg"
-                animate={{ 
-                  rotate: [0, 15, 0, -15, 0],
-                  y: [0, 15, 0, -15, 0],
-                }}
-                transition={{ 
-                  repeat: Infinity,
-                  duration: 16,
-                  ease: "easeInOut"
-                }}
-              ></motion.div>
-              
-              <motion.div 
-                className="absolute bottom-0 left-1/4 w-64 h-64 bg-primary rounded-lg"
-                animate={{ 
-                  rotate: [0, -8, 0, 8, 0],
-                  x: [0, -15, 0, 15, 0],
-                }}
-                transition={{ 
-                  repeat: Infinity,
-                  duration: 20,
-                  ease: "easeInOut"
-                }}
-              ></motion.div>
-            </div>
+            <motion.img
+              src="https://i.imgur.com/44bkL9F.png"
+              alt="Springplat Logo"
+              className="w-90 h-90 object-contain"
+              animate={{
+                y: [0, -15, 0, 15, 0],
+              }}
+              transition={{
+                repeat: Infinity,
+                duration: 8,
+                ease: "easeInOut"
+              }}
+            />
           </motion.div>
         </div>
       </div>

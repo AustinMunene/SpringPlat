@@ -53,13 +53,6 @@ const OurApproachSection = () => {
             >
               This attention to detail allows us to create solutions that truly fit your business needs.
             </motion.p>
-            <motion.div 
-              className="flex flex-col sm:flex-row gap-4"
-              variants={itemVariants}
-            >
-              <a href="#work" className="btn btn-primary">VIEW OUR WORK</a>
-              <a href="#contact" className="btn btn-outline">CONTACT US</a>
-            </motion.div>
           </motion.div>
           
           <motion.div
