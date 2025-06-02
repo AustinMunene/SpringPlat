@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #45C9B1;
+  --primary-light: #8DDFD0;
+  --primary-dark: #38A491;
+  --secondary: #FFA64D;
+  --secondary-light: #FFCB99;
+  --secondary-dark: #FF8B1A;
+  --background-light: #F8FCFC;
+  --background: #F0F7F7;
+  --text-dark: #333333;
+  --text: #555555;
+  --text-light: #777777;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: var(--text);
+  background-color: #ffffff;
+}
+
+@layer components {
+  .container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .btn {
+    @apply px-6 py-3 rounded-md font-medium transition-all duration-300 inline-block;
+  }
+  
+  .btn-primary {
+    @apply bg-primary text-white hover:bg-primary-dark;
+  }
+  
+  .btn-outline {
+    @apply border-2 border-primary text-primary hover:bg-primary hover:text-white;
+  }
+  
+  .section {
+    @apply py-16 md:py-24;
+  }
+  
+  .heading-xl {
+    @apply text-4xl md:text-[3.5em] font-medium text-text-dark leading-[1.25];
+  }
+  
+  .heading-lg {
+    @apply text-3xl md:text-4xl font-bold text-text-dark leading-tight;
+  }
+  
+  .heading-md {
+    @apply text-2xl md:text-3xl font-semibold text-text-dark leading-tight;
+  }
+  
+  .paragraph {
+    @apply text-base md:text-lg text-text leading-relaxed;
+  }
+}
